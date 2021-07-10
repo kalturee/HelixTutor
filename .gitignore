@@ -1,0 +1,17 @@
+# Generated artifacts
+*.pyc
+__pycache__/
+
+# Logs and runtime caches
+notes/*.log
+tools/__pycache__/
+
+# Personal metadata
+SECRET*.txt
+.env
+
+# Config-driven files
+AGENTS.md
+
+# Node helpers
+node_modules/
