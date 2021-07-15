@@ -27,4 +27,7 @@ def sample_station() -> str:
     return f"[{timestamp}] {moment} — {signal}"
 
 if __name__ == "__main__":
-    print(
+    print("    ," * 10)
+    print("LumenTide mixchain prompt")
+    for _ in range(3):
+        print("-", sample_station())
