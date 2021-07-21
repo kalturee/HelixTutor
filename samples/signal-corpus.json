@@ -1,0 +1,30 @@
+[
+  {
+    "signal_type": "commute-chime",
+    "value": 1.02,
+    "note": "commute-chime w/ flicker drift",
+    "moment": "flicker",
+    "recorded_at": "2021-07-12T06:12:03+00:00"
+  },
+  {
+    "signal_type": "bot-nudge",
+    "value": 2.98,
+    "note": "bot-nudge w/ electric drift",
+    "moment": "electric",
+    "recorded_at": "2021-07-12T06:14:19+00:00"
+  },
+  {
+    "signal_type": "price-jump",
+    "value": 2.47,
+    "note": "price-jump w/ calm drift",
+    "moment": "calm",
+    "recorded_at": "2021-07-13T19:52:10+00:00"
+  },
+  {
+    "signal_type": "sensor-drift",
+    "value": 0.87,
+    "note": "sensor-drift w/ static",
+    "moment": "static",
+    "recorded_at": "2021-07-14T01:29:44+00:00"
+  }
+]
