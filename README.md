@@ -17,3 +17,14 @@ LumenTide is a personal daydream: a solo explorer's toolkit for grabbing dispara
 1. Introduce a CLI entry point that can spin up a random station log.
 2. Add sample data generators that mimic live signals (price jumps, bot replies, sensor blips).
 3. Connect the journal entries to an automated mailer that can send weekly summaries.
+
+## CLI workflow
+- Run `python bin/lumen_station.py --note "any quick thought"` to capture a randomized prompt, append a record to `notes/live-log.md`, and keep the mood preserved for the next commit.
+- Use `python tools/mixchain.py` whenever you want to seed the log with fresh prompts and see how the current station would describe itself.
+
+## Signal experiments
+- `tools/signal_fabricator.py` lets you generate repeatable patches (call `python tools/signal_fabricator.py` for a JSON dump) and can be wired into future automation.
+- Keep the curated samples in `samples/signal-corpus.json` as triggers for the journal, tests, or mock bots.
+
+## Personal routine
+- Record tiny observations, push nightly, and let the repository become a running log of how the solo project evolved, even if the actual tests are skipping build steps.
