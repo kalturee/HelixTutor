@@ -8,3 +8,7 @@
   3. Capture all of this in a rolling markdown note so that it can be committed nightly.
 
 This log is intentionally rough; it follows the way a developer would jot down half-baked ideas before polishing them.
+
+## Latest check-in
+- I walked through `bin/lumen_station.py` after the main day job, letting the CLI tack a fresh prompt into `notes/live-log.md`.
+- Drafted a `weekly-digest.md` record from the curated signal corpus so future me can see what the week actually held, even without running anything real.
