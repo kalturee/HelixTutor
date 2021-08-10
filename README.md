@@ -28,3 +28,7 @@ LumenTide is a personal daydream: a solo explorer's toolkit for grabbing dispara
 
 ## Personal routine
 - Record tiny observations, push nightly, and let the repository become a running log of how the solo project evolved, even if the actual tests are skipping build steps.
+
+## Reflections and summaries
+- Inspect `notes/live-log.md` without leaving the editor by running `python tools/log_inspector.py`; it reports the number of recorded headings and the latest snippet header.
+- Use `python scripts/reflector.py` to append a quick reflection entry; the script pulls from the inspector and writes a timestamped note into `notes/reflection.md`.
